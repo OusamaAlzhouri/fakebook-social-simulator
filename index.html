@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Fakebook</h1>
+        <nav>
+            <a href="#">Friends</a>
+            <a href="#">Groups</a>
+            <a href="#">Settings</a>
+        </nav>
+        <img src="./assets/img/profile.webp" alt="Profile Picture" id="profile-pic">
+    </header>
+    <section id="post-form">
+        <textarea id="post-text" placeholder="What's new?"></textarea>
+        <input type="file" id="post-image" accept="image/*">
+        <button id="post-btn">Post</button>
+    </section>
+    <section id="posts"></section>
+    <div id="user-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>User Info</h2>
+            <p id="user-info"></p>
+        </div>
+    </div>
+</body>
+</html>
